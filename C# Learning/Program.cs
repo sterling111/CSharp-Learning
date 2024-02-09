@@ -1,7 +1,7 @@
 ﻿
 namespace Dami_C_Universe
 {
-    /* class Day1
+     class Day1
     {
         static void Main(string[] args)
         {
@@ -23,7 +23,7 @@ namespace Dami_C_Universe
 
           
         }
-    } */
+    }
     class Day2
     {
         static void Main(string[] args)
