@@ -19,9 +19,7 @@ namespace Dami_C_Universe
 
             string convertedInt = Convert.ToString(myInt);
 
-            Console.WriteLine(convertedInt + myInt);
-
-          
+            Console.WriteLine(convertedInt + myInt);         
         }
     }
     class Day2
@@ -65,4 +63,8 @@ namespace Dami_C_Universe
 
         }
     }
+
+    /* So far i learnt about the c# syntax which are: using system, namespace, curly-braces, class, main-method and cnsole which is a class of the system namespace. 
+     c# output which is the WriteLine() method and also 
+    the types of variables which are: int, double, char, string, and bool. declaring and creating variables and c# constants */
 }
