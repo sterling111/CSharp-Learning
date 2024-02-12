@@ -27,29 +27,19 @@ namespace Dami_C_Universe
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To DamiC Universe");
-
             Console.WriteLine("--------------------------");
 
-            //Console.WriteLine("Enter username:");
-
-            //Console.WriteLine("Enter phonenumber:");
-
-            //Console.WriteLine("Enter emailaddress:");
-
             string userName = "DamiC";
-
             string phoneNumber = "09037740965";
-
             string emailAddress = "Damic@gmail.com";
 
             Console.WriteLine("Username : " + userName);
-
             Console.WriteLine("Phonenumber : " + phoneNumber);
-
             Console.WriteLine("Emailaddress : " + emailAddress);
             Console.WriteLine("--------------------------");
             Console.WriteLine();
 
+            // Collect user input
             Console.Write("Enter your Name: ");
             string? Name = Console.ReadLine();
 
@@ -59,8 +49,11 @@ namespace Dami_C_Universe
             Console.Write("Enter your Email: ");
             string? Email = Console.ReadLine();
 
-            Console.WriteLine("Welcome to the universe, " + Name + " Phone: " + Phone + ", Email: " + Email);
+            Console.WriteLine($"Welcome to, {Name} universe");
+            Console.WriteLine($"Phone: {Phone}");
+            Console.WriteLine($"Email: {Email}");
 
+            // Console.ReadLine();
         }
     }
 
